@@ -2,4 +2,9 @@ name: HoloHpBar
 version: '${project.version}'
 main: me.noogs.HoloHpBar
 api-version: 1.18
+author: [ Noogs ]
 description: Hologram Hp Bar for Minecraft 1.18.1
+commands:
+    holohp:
+      description: holohp Command
+      usage: /<command>
