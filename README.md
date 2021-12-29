@@ -1,2 +1,2 @@
-# HoloHpBar
-Hologram Hp Bar for Minecraft 1.18.1 Bukkit
+# BossBarMonsterHP
+BossBarMonsterHP for Minecraft 1.18.1 Bukkit
