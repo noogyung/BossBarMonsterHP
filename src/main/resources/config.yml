@@ -1,1 +1,8 @@
-HPName: " HP : "
+#리프레쉬 1/20초 60 = 3초
+duration : 40
+
+styles:
+    Player:
+      color: BLUE
+    Animals:
+      color: GREEN

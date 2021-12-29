@@ -8,7 +8,7 @@ import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.PluginDescriptionFile;
 
 public class mainCommand implements CommandExecutor {
-    Plugin plugin = HoloHpBar.getPlugin();
+    Plugin plugin = BossBarMonsterHP.getPlugin();
 
     public boolean onCommand(CommandSender sender, Command command, String label, String[] args){
         PluginDescriptionFile pdf = plugin.getDescription();
@@ -20,7 +20,7 @@ public class mainCommand implements CommandExecutor {
                     plugin.reloadConfig();
                     plugin.onDisable();
                     plugin.onEnable();
-                    sender.sendMessage(ChatColor.GREEN +"HoloHpBar Plugin is reloaded!");
+                    sender.sendMessage(ChatColor.GREEN +"BossBarMonsterHP Plugin is reloaded!");
                     break;
                 default:
                     break;

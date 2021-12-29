@@ -5,20 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="accd2bed-34a5-4c5a-99ca-2d1f45242624" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/noogs/Listener/EntityDamageEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/noogs/Listener/EntityRegainHealthEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/me/noogs/mainCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/noogs/Listener/EntityBarFromAttack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/noogs/Listener/EntityBarFromLook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/noogs/Listener/EntityDeath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/noogs/Listener/EntityHealing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/noogs/Listener/getBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/noogs/Listener/playerBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/noogs/Utils/Targeter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/noogs/Utils/destroyBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/me/noogs/Utils/refreshBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HoloHpBar.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HoloHpBar.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HoloHpBar.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/me/noogs/HoloHpBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/noogs/HoloHpBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/noogs/HoloHpBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/noogs/BossBarMonsterHP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/noogs/Listener/EntityDamageEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/noogs/Listener/EntityRegainHealthEvent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/me/noogs/mainCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/me/noogs/mainCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -57,10 +70,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../RecycleEnchant/squirrel.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="build.tools" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -71,7 +85,7 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="HoloHpBar build" type="MavenRunConfiguration" factoryName="Maven">
+    <configuration name="BossBarMonsterHP build" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings">
           <MavenGeneralSettings>
@@ -124,7 +138,7 @@
               <map />
             </option>
             <option name="resolveToWorkspace" value="false" />
-            <option name="workingDirPath" value="D:\dulka\Home_Docu\McPluginProj\git\GitHoloHpBar\HoloHpBar" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
           </MavenRunnerParameters>
         </option>
       </MavenSettings>

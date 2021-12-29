@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/HoloHpBar.iml" filepath="$PROJECT_DIR$/HoloHpBar.iml" />
+      <module fileurl="file://$PROJECT_DIR$/BossBarMonsterHP.iml" filepath="$PROJECT_DIR$/BossBarMonsterHP.iml" />
     </modules>
   </component>
 </project>

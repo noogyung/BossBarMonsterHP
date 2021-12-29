@@ -1,10 +1,10 @@
-name: HoloHpBar
+name: BossBarMonsterHP
 version: '${project.version}'
-main: me.noogs.HoloHpBar
+main: me.noogs.BossBarMonsterHP
 api-version: 1.18
 author: [ Noogs ]
-description: Hologram Hp Bar for Minecraft 1.18.1
+description: BossBarMonsterHP for Minecraft 1.18.1
 commands:
-    holohp:
-      description: holohp Command
+    bbmp:
+      description: BossBarMonsterHP Command
       usage: /<command>

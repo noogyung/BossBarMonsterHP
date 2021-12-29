@@ -5,13 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>me.noogs</groupId>
-    <artifactId>HoloHpBar</artifactId>
+    <artifactId>BossBarMonsterHP</artifactId>
     <version>1.0</version>
     <packaging>jar</packaging>
 
-    <name>HoloHpBar</name>
+    <name>BossBarMonsterHP</name>
 
-    <description>Hologram Hp Bar for Minecraft 1.18.1</description>
+    <description>BossBarMonsterHP for Minecraft 1.18.1</description>
     <properties>
         <java.version>17</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
