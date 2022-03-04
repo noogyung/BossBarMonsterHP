@@ -1,6 +1,6 @@
 package me.noogs.Listener;
 
-import me.noogs.HoloHpBar;
+import me.noogs.BossBarMonsterHP;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.event.EventHandler;
@@ -9,7 +9,7 @@ import org.bukkit.plugin.Plugin;
 
 
 public class EntityRegainHealthEvent implements Listener {
-    Plugin plugin = HoloHpBar.getPlugin();
+    Plugin plugin = BossBarMonsterHP.getPlugin();
     FileConfiguration config = plugin.getConfig();
 
     @EventHandler

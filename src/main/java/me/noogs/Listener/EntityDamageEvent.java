@@ -1,21 +1,23 @@
 package me.noogs.Listener;
 
-import me.noogs.HoloHpBar;
+import me.noogs.BossBarMonsterHP;
 import org.bukkit.Bukkit;
 import org.bukkit.attribute.Attribute;
 import org.bukkit.entity.Arrow;
-import org.bukkit.entity.Entity;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
 import org.bukkit.plugin.Plugin;
-import org.bukkit.scoreboard.*;
+import org.bukkit.scoreboard.DisplaySlot;
+import org.bukkit.scoreboard.Objective;
+import org.bukkit.scoreboard.Scoreboard;
+import org.bukkit.scoreboard.ScoreboardManager;
 
 
 public class EntityDamageEvent implements Listener {
-    Plugin plugin = HoloHpBar.getPlugin();
+    Plugin plugin = BossBarMonsterHP.getPlugin();
     ScoreboardManager manager = Bukkit.getScoreboardManager();
     Scoreboard scoreBoard = manager.getNewScoreboard();;
     Objective objective = null;
